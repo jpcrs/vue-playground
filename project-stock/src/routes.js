@@ -1,9 +1,9 @@
 import Home from './components/Home.vue';
-import Portifolio from './components/portifolio/Portifolio.vue';
+import Portfolio from './components/portfolio/Portfolio.vue';
 import Stocks from './components/stocks/Stocks.vue'
 
 export const routes = [
   {path: '/', component: Home},
-  {path: '/portifolio', component: Portifolio},
+  {path: '/portfolio', component: Portfolio},
   {path: '/stocks', component: Stocks}
 ]
